@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- 白色背景圆 -->
+  <circle cx="32" cy="32" r="30" fill="white" stroke="#e0e0e0" stroke-width="1" />
+  
+  <!-- Overleaf绿色"O"字母 -->
+  <path d="M32,15 c-7.732,0-14,6.268-14,14 c0,7.732,6.268,14,14,14 c7.732,0,14-6.268,14-14 c0-7.732-6.268-14-14-14 z M32,37 c-4.418,0-8-3.582-8-8 c0-4.418,3.582-8,8-8 c4.418,0,8,3.582,8,8 c0,4.418-3.582,8-8,8 z" 
+        fill="#4CAF50" />
+  
+  <!-- 紧凑布局元素 -->
+  <!-- 顶部工具栏(隐藏状态) -->
+  <rect x="18" y="14" width="28" height="3" rx="1" ry="1" fill="#e0e0e0" opacity="0.6" />
+  
+  <!-- 紧凑的文档元素 -->
+  <rect x="16" y="39" width="32" height="16" rx="2" ry="2" fill="#f5f5f5" stroke="#4CAF50" stroke-width="1.5" />
+  
+  <!-- 文档内部的文本线条 -->
+  <path d="M20,43 h24 v1 h-24 z" fill="#4CAF50" opacity="0.7" />
+  <path d="M20,46 h24 v1 h-24 z" fill="#4CAF50" opacity="0.7" />
+  <path d="M20,49 h16 v1 h-16 z" fill="#4CAF50" opacity="0.7" />
+  <path d="M20,52 h20 v1 h-20 z" fill="#4CAF50" opacity="0.7" />
+  
+  <!-- 紧凑箭头 - 从顶部指向文档区域 -->
+  <path d="M32,36 l-4,-4 h2.5 v-2 h3 v2 h2.5 z" fill="#388E3C" />
+  
+  <!-- 折叠/紧凑表示 - 左右两侧的小箭头 -->
+  <path d="M14,29 l2,-2 l2,2 l-2,2 z" fill="#388E3C" />
+  <path d="M50,29 l-2,-2 l-2,2 l2,2 z" fill="#388E3C" />
+</svg>

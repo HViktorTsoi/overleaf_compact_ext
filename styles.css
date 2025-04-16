@@ -1,0 +1,16 @@
+/* Additional styles for compact mode if needed */
+.compact-mode .toolbar-header {
+    display: none !important;
+  }
+  
+  .compact-mode .cm-panels-top {
+    display: none !important;
+  }
+  
+  .compact-mode .toolbar-pdf {
+    display: none !important;
+  }
+  
+  .compact-mode .pdf-viewer {
+    margin-top: -32px !important;
+  }
