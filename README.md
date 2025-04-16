@@ -20,7 +20,7 @@ Maximizing your Overleaf editing space by hiding toolbars and providing quick ac
    - If downloaded as ZIP, extract the contents to a folder
 
    ```bash
-   git clone https://github.com/yourusername/overleaf-compact-layout.git
+   git clone https://github.com/HViktorTsoi/overleaf_compact_ext.git
    ```
 
 2. **Load the extension in Chrome**
