@@ -53,7 +53,7 @@ Maximizing your Overleaf editing space by hiding toolbars and providing quick ac
 | Control | Description |
 |---------|-------------|
 | **Compact Mode Toggle** | Switches between normal and compact layout. When enabled, toolbars are hidden to maximize editing space. |
-| **Recompile Button** | Triggers a recompilation of your document without needing to find the recompile button in the Overleaf interface. The button is temporarily disabled for 2 seconds after clicking to prevent accidental double-clicks. |
+| **Recompile Button** | Triggers a recompilation of your document without needing to find the recompile button in the Overleaf interface. |
 
 
 ## How It Works
