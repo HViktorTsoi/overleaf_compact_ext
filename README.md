@@ -24,11 +24,10 @@ Maximizing your Overleaf editing space by hiding toolbars and providing quick ac
    ```
 
 2. **Load the extension in Chrome**
-   - Open Chrome and navigate to `chrome://extensions/`
-   - Enable "Developer mode" by toggling the switch in the top-right corner
-   - Click "Load unpacked" and select the extension folder
-
-   [Installation Guide](screenshots/installation.png)
+   - Open Chrome and navigate to `chrome://extensions/` or enter **"Manage Extensions"** in the address bar
+   - Enable **"Developer mode"** by toggling the switch in the top-right corner
+   - Click **"Load unpacked"** and select the extension folder
+   - Refresh your overleaf page
 
 3. **Verify installation**
    - The Overleaf Compact Layout icon should appear in your Chrome toolbar
