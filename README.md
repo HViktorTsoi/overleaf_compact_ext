@@ -52,17 +52,17 @@ Maximizing your Overleaf editing space by hiding toolbars and providing quick ac
 
 | Control | Description |
 |---------|-------------|
-| **Compact Mode Toggle** | Switches between normal and compact layout. When enabled, toolbars are hidden to maximize editing space. |
+| **Compact Mode Toggle (CTRL+SHIFT+0)** | Switches between normal and compact layout. When enabled, toolbars are hidden to maximize editing space. |
 | **Recompile Button** | Triggers a recompilation of your document without needing to find the recompile button in the Overleaf interface. |
 
 
-## How It Works
+<!-- ## How It Works
 
 The extension works by:
 
 1. Applying CSS to hide unnecessary UI elements when compact mode is enabled
 2. Using a MutationObserver to ensure compact mode stays enabled even when Overleaf updates its DOM
-3. Simulating button clicks to trigger Overleaf's native recompile functionality
+3. Simulating button clicks to trigger Overleaf's native recompile functionality -->
 
 ## Troubleshooting
 

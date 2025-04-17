@@ -45,4 +45,16 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+  
+  // 监听来自background.js的状态更新消息
+  chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+    if (request.action === 'updatePopupState') {
+      // 更新switch状态
+      compactModeToggle.checked = request.compactMode;
+      
+      // 确认已处理消息
+      sendResponse({ success: true });
+    }
+    return true;
+  });
 });

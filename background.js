@@ -66,6 +66,12 @@ chrome.commands.onCommand.addListener(function(command) {
             action: 'toggleCompactMode', 
             compactMode: newState 
           });
+
+          // 广播消息给所有打开的popup页面，更新UI状态
+          chrome.runtime.sendMessage({ 
+            action: 'updatePopupState', 
+            compactMode: newState 
+          });
         });
       }
     });
