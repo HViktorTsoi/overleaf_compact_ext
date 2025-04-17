@@ -1,34 +1,46 @@
 {
-    "manifest_version": 3,
-    "name": "Overleaf Compact Layout Plugin",
-    "version": "1.0",
-    "description": "Toggle compact layout mode for Overleaf editor",
-    "icons": {
+  "name": "Overleaf Compact Layout",
+  "version": "1.0",
+  "description": "Toggle compact layout for Overleaf to maximize editing space",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
-    },
-    "action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-        "16": "icons/icon16.png",
-        "48": "icons/icon48.png",
-        "128": "icons/icon128.png"
-      }
-    },
-    "permissions": ["storage", "activeTab", "scripting"],
-    "host_permissions": [
-      "*://*.overleaf.com/*"
-    ],
-    "background": {
-      "service_worker": "background.js"
-    },
-    "content_scripts": [
-      {
-        "matches": ["*://*.overleaf.com/*"],
-        "js": ["content.js"],
-        "css": ["styles.css"],
-        "run_at": "document_end"
-      }
-    ]
+    }
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*.overleaf.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.overleaf.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "commands": {
+    "toggle-compact-mode": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+0",
+        "mac": "Ctrl+Shift+0"
+      },
+      "description": "Toggle compact mode"
+    }
   }
+}

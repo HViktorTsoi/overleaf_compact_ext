@@ -43,7 +43,7 @@ Maximizing your Overleaf editing space by hiding toolbars and providing quick ac
 
 1. Navigate to any Overleaf project
 2. Click the Overleaf Compact Layout extension icon in your toolbar
-3. Use the `toggle switch` to enable or disable Compact Mode
+3. Use the `toggle switch` (or keyboard `Ctrl+Shift+0`) to enable or disable Compact Mode
 4. Use the `Recompile` button to quickly recompile your document
 
 <!-- [Usage Demo](screenshots/usage-demo.png) -->
